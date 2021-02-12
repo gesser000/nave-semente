@@ -1,0 +1,23 @@
+#Seedship status
+
+colonizadores = 1000
+
+#scaners
+
+atmosfera = 100
+gravidade = 100
+temperatura = 100
+agua = 100
+recursos = 100
+
+sondas = 10
+
+#sistemas
+
+aterrissagem = 100
+construção = 100
+
+#dados
+
+cientifica = 100
+cultural = 100
