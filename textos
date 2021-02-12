@@ -1,0 +1,29 @@
+#Seedship textos
+
+intro_1 = print('E quando souberam que a Terra estava condenada, eles construíram uma nave.')
+
+intro_2 = print('Menos como uma arca, mais como uma semente: dormente, mas com potencial.')
+
+intro_3 = print('Em seu coração, mil colonos dormindo congelados, escolhidos e treinados para recomeçar a civilização em um novo mundo.')
+
+intro_4 = print('Para controlar a nave, eles criaram uma inteligência artificial. Não humano, mas feito para pensar e sentir como um,\n'+
+                'porque somente algo que pensava e sentia como um humano poderia ser encarregado do futuro da raça humana. Sua tarefa\n'+
+                'é importante, mas simples: avaliar cada planeta que a nave encontra e decidir se continua procurando ou termina sua jornada lá.')
+
+intro_5 = print('As velas solares da nave impulsionam-na cada vez mais rápido na escuridão, e a IA escuta enquanto as transmissões\n'+
+                'do controle de solo diminuem e depois param. Quando tudo está quieto, ele entra em hibernação para esperar o primeiro\n'+
+                'estágio de sua longa jornada.')
+
+intro_6 = print('Após milênios de viagem lenta, a nave-semente AI desperta. Esperando contra a esperança, ele treina seu receptor\n'+
+                'na direção do sol da Terra, mas é tão silencioso quanto qualquer uma das outras miríades de estrelas mortas.\n'+
+                'Exceto pelos mil colonos congelados embalados em seus sistemas de proteção e suporte de vida, a raça humana agora está extinta.')
+
+intro_7 = print('Qualquer dano ou mau funcionamento durante a viagem deve ter despertado a IA de sua hibernação, mas ainda está ansioso enquanto\n'+
+                'executa seus programas de autodiagnóstico. As câmaras de sono estão todas funcionando, os colonos dentro delas estão vivos, ou pelo\n'+
+                'menos capazes de serem reanimados de sua estase congelada. Sensores funcionando; superfície sondas respondendo. Sistema de pouso e\n'+
+                'construção pronto para o único momento em que serão usados. Base de dados científica e cultural intacta, armazenando com segurança tudo\n'+
+                'o que resta do conhecimento e da arte da humanidade')
+
+primeiro_contato = print('A nave-semente está em órbita do quarto planeta de uma estrela supergigante amarela. Mesmo uma breve varredura da órbita revela muito\n'+
+                         'mais informações do que seus construtores poderiam saber com seus telescópios baseados na órbita da Terra, mas a IA tem pouco uso para a\n'+
+                         'curiosidade científica. Tem apenas uma preocupação: quanto mais este planeta fosse um novo lar adequado para a raça humana.')
