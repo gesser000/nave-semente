@@ -1,0 +1,111 @@
+#Seedship funções
+
+import random
+
+def reticencias():
+    input('...')
+
+def sitemas():
+    input('Verificações do sistema')
+
+def scanear():
+    input('Escanear planeta')
+
+def aleatorio(x,y):
+    valor = random.randint(x,y)
+    return valor
+
+#Recursos Planetários
+
+def ordem_planeta():
+    sorteio = aleatorio(0,9)
+    nome_ordem = ['primeiro','segundo','terceiro','quarto','quinto','sexto',
+                  'setimo','oitavo','nono','decimo']
+    planeta = print(nome_ordem[sorteio])
+
+def atmosfera():
+    sorteio = aleatorio(0,5)
+    tipo_atmosfera = ['Respiravel','Rarefeita','Não-respiravel',
+                      'Tóxica','Corrosiva','nenhuma']
+    resultado_atmos = print(tipo_atmosfera[sorteio])
+
+def gravidade():
+    sorteio = aleatorio(0,4)
+    tipo_gravidade = ['Muito alta','Alta','Moderada',
+                      'Baixa','Muito baixa']
+    resultado_grav = print(tipo_gravidade[sorteio])
+
+def temperatura():
+    sorteio = aleatorio(0,4)
+    tipo_temperatura = ['Muito quente','Quente','Amena',
+                      'Frio','Muito frio']
+    resultado_temp = print(tipo_temperatura[sorteio])
+
+def agua():
+    sorteio = aleatorio(0,5)
+    tipo_agua = ['Oceanos','Oceano planetário','Calotas polares',
+                 'Superficie congelada','Vestigios','Nenhuma']
+    resultado_agua = print(tipo_agua[sorteio])
+
+def recursos():
+    sorteio = aleatorio(0,2)
+    tipo_recursos = ['Rico', 'Pobre', 'Nenhum']
+    resultado_rec = print(tipo_recursos[sorteio])
+
+#Anomalias
+
+def anomalias():
+    sorteio = aleatorio(0,7)
+    tipo_anomalias = ['Luas','Vida vegetal','Vida animal','Possiveis estruturas',
+                      'Geologia','Atividade eletromagética','Observadores alienigenas',
+                      'Simulação']
+    resultado_anom = print(tipo_anomalias[sorteio])
+
+def lua():
+    if anormalidade == 'Lua':
+        sorteio = aleatorio(0,2)
+        tipo_lua = ['Lua estéril','Lua instável','Lua rica em metal']
+        resultado_lua = print(tipo_lua[sorteio])
+    else:
+        return none
+
+
+def vida_vegetal():
+    if anormalidade == 'Vida vegetal':
+        sorteio = aleatorio(0,2)
+        tipos_plantas = ['Vida vegetal','Plantas venenosas','Plantas comestíveis']
+        resultado_plantas = print(tipos_plantas[sorteio])
+    else:
+        return none
+
+def vida_animal():
+    if anormalidade == 'Vida animal':
+        sorteio = aleatorio(0,2)
+        tipos_animais = ['Vida animal','Animais perigosos','Animais úteis ']
+        resultado_animais = print(tipos_animais[sorteio])
+    else:
+        return none
+
+def estruturas():
+    if anormalidade == 'Possiveis estruturas':
+        sorteio = aleatorio(0,3)
+        tipos_estruturas = ['Ruinas perigosas','Ruinas monumentais','Ruinas tecnológicas',
+                            'Formações geológicas regulares' ]
+        resultado_estrut = print(tipos_estruturas[sorteio])
+    else:
+        return none
+
+def geologia():
+    if anormalidade == 'Geologia':
+        sorteio = aleatorio(0,2)
+        tipos_cavernas = ['Cavernas herméticas','Cavernas isoladas','Geologia instável']                       
+                          'Formações geológicas regulares' ]
+        resultado_cav = print(tipos_cavernas[sorteio])
+    else:
+        return none
+
+def estetica():
+    sorteio = aleatoriedade(0,3)
+    if sorteio < 2:
+        tipos_estetica = ['Beleza excepcional','Feiúra extraordinária']
+        resultados_est = print(tipos_estetica[sorteio])
