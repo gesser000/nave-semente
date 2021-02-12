@@ -1,0 +1,8 @@
+#seedship
+#tela inicial
+
+print('----------Seedship----------')
+print(' ')
+print('-Aperte ENTER para começar.-')
+print(' ')
+print('----------------------------')
